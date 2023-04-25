@@ -1,0 +1,40 @@
+* {
+ padding: 0;
+ margin: 0;
+ outline: none;
+ box-sizing: border-box;
+}
+
+html, body {
+ font-size: 14px;
+}
+#root {
+  height: 100%;
+}
+.app-container {
+  padding: 20px;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+:root {
+ font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+ font-size: 16px;
+ line-height: 24px;
+ font-weight: 400;
+
+ font-synthesis: none;
+ text-rendering: optimizeLegibility;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ -webkit-text-size-adjust: 100%;
+}
+
+
+.tip-color {
+  color: #999;
+}
+
+.display-none{
+  display: none !important;
+}

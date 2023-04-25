@@ -1,0 +1,65 @@
+//name : default
+.h-transition-enter-from, .h-transition-leave-to {
+  opacity: 0;
+}
+
+.h-transition-enter-to,.h-transition-leave-from {
+  opacity: 1;
+}
+
+.h-transition-leave-active,.h-transition-enter-active {
+  transition: 0.3s all ease-in-out;
+}
+
+// name: fade-left
+.fade-left-enter-form, .fade-left-leave-to {
+  opacity: 0;
+  transform: translate3d(-100%, 0, 0);
+}
+
+.fade-left-enter-to,.fade-left-leave-from {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.fade-left-leave-active,.fade-left-enter-active {
+  transition: 0.3s all ease-in-out;
+}
+
+//fade right
+.fade-right-enter-form, .fade-right-leave-to {
+  opacity: 0;
+  transform: translate3d(100%, 0, 0);
+}
+
+.fade-right-enter-to,.fade-right-leave-from {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.fade-right-leave-active,.fade-right-enter-active {
+  transition: 0.3s all ease-in-out;
+}
+
+//width-left
+.width-left-enter-form, .width-left-leave-to {
+  width: 0 !important;
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+.width-left-enter-to,.width-left-leave-from {
+  //opacity: 1;
+  //transform: translate3d(0, 0, 0);
+  width: 300px;
+}
+
+.width-left-leave-active,.width-left-enter-active {
+  transition: 0.3s all ease-in-out;
+}
+
+
+.__h-transition-display-none {
+  //visibility: hidden;
+  display: none !important;
+}

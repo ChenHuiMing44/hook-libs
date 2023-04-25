@@ -1,0 +1,44 @@
+
+.app-back-container{
+  height: 100vh;
+  display: flex;
+  .left-menu {
+    width: 160px;
+    height: 100%;
+    overflow-y: scroll;
+    border-right: 1px solid #ddd;
+    .app-menu {
+      padding: 30px 10px;
+      .module-item {
+        padding-bottom: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #333;
+      }
+      .link-item {
+        color: cornflowerblue;
+        padding: 2px 0 2px 20px;
+        cursor: pointer;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .right-content {
+    overflow-x: hidden;
+    flex: 1;
+    height: 100%;
+  }
+  .right-code {
+    overflow-x: hidden;
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .code-content {
+      flex: 1;
+    }
+  }
+}
+

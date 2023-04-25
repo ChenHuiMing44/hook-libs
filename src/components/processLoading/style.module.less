@@ -1,0 +1,66 @@
+
+.process-back {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  margin-left: -160px;
+}
+
+.process-loading {
+  background-color: #fff;
+  position: relative;
+  padding: 19px 20px;
+  box-sizing: border-box;
+  width: 320px;
+  height: 88px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px -1px rgba(18,22,33,.05);
+  overflow: hidden;
+  cursor: pointer;
+  text-align: left;
+  :global {
+    //background-color: ;
+    .percent {
+      background-color: #F5F9FF;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      transition: background .6s ease,transform .16s ease;
+      transform-origin: 0 50%;
+      .process {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 19px;
+        height: 1.33px;
+        background-color: #5628EE;
+      }
+    }
+    .process-content {
+      position: absolute;
+      z-index: 1;
+      display: flex;
+      justify-content: space-between;
+      left: 20px;
+      right: 20px;
+      top: 19px;
+      bottom: 19px;
+      align-content: center;
+      .right {
+        line-height: 50px;
+        color: #99A3BA;
+        font-weight: bold;
+      }
+      .title-line {
+        line-height: 26px;
+        font-size: 15px;
+      }
+      .description-line {
+        color: #99A3BA;
+      }
+
+    }
+  }
+}

@@ -1,0 +1,4 @@
+
+{
+  "watch": ["./codeView/**/*.js", "./codeView/**/*.ts"]
+}

@@ -1,0 +1,25 @@
+.scroll-dom {
+  width: 300px;
+  height: 400px;
+  margin: auto;
+  overflow-y: scroll;
+  .loading-box {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.scroll-list {
+  display: flex;
+  flex-direction: column;
+  .scroll-item {
+    height: 80px;
+    border-bottom: 1px solid #333333;
+    //background-color: #03EAE4;
+    //&:nth-child(odd) {
+    //  background-color: antiquewhite;
+    //}
+  }
+
+}
